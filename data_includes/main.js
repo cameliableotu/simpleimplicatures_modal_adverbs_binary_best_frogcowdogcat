@@ -234,7 +234,43 @@ PennController("introductionanimals" ,
 	    defaultText
 	        .print()
 	    ,
-	    newText ("<p> Now let's get acquainted with the animals in the show. We have got a group of three dogs. </p>")
+	    newText ("<p> Now let's get acquainted with the animals in the show. We have got a group of three frogs. </p>")
+	    ,
+	    newImage ("threefrogs","threefrogs.png")
+               .print ()
+	       ,
+	       newAudio("frogsounds2sec", "frogsounds2sec.mp3")
+		.play()
+	       ,
+	                
+	       newKey(" ")
+        .wait()
+	      )
+;
+PennController("introductionanimals" ,
+	    defaultText
+	        .print(),
+	       newText ("<p> A group of three cows. </p>")
+	    ,
+	                  
+	     newImage ("threecows", "threecows.png")
+               .print ()
+	       ,
+	        newAudio("cowsounds2sec", "cowsounds2sec.mp3")
+		.play()
+	       ,
+	       newKey(" ")
+        .wait()
+	       
+	      )	
+;
+
+PennController("introductionanimals" ,
+	    defaultText
+	        .print()
+	    ,
+	   
+	       newText ("<p> A group of three dogs. </p>")
 	    ,
 	                  
 	     newImage ("threedogs", "threedogs.png")
@@ -245,34 +281,14 @@ PennController("introductionanimals" ,
 	       ,
 	       newKey(" ")
         .wait()
-	      )
-;
-
-PennController("introductionanimals" ,
-	    defaultText
-	        .print()
-	    ,
-	   
-	       newText ("<p> A group of three frogs. </p>")
-	    ,
-	                  
-	     newImage ("threefrogs", "threefrogs.png")
-               .print ()
-	       ,
-	       newAudio("frogsounds2sec", "frogsounds2sec.mp3")
-		.play()
-	       ,
-	       newKey(" ")
-        .wait()
 	       )
 ;       
 PennController("introductionanimals" ,
 	    defaultText
 	        .print(),
-	       newText ("<p> A group of three cats. </p>")
+	       newText ("<p> And a group of three cats. </p>")
 	    ,
-	                  
-	     newImage ("threecats","threecats.png")
+	       newImage ("threecats", "threecats.png")
                .print ()
 	       ,
 	       newAudio("catsounds", "catsounds.mp3")
@@ -281,25 +297,9 @@ PennController("introductionanimals" ,
 	       newKey(" ")
         .wait()
 	       
-	      )
-;
-PennController("introductionanimals" ,
-	    defaultText
-	        .print(),
-	       newText ("<p> and a group of three cows. </p>")
-	    ,
-	                  
-	     newImage ("threecows", "threecows.png")
-               .print ()
-	       ,
-	       newAudio("cowsounds2sec", "cowsounds2sec.mp3")
-		.play()
-	       ,
-	       newKey(" ")
-        .wait()
-	       
 	      )	
 ;
+
 PennController("experiment" ,
 	    defaultText
 	        .print()
