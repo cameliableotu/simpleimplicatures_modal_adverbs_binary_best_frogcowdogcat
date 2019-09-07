@@ -1627,7 +1627,7 @@ PennController("experiment" ,
 	        .print(),
 	       newText ("<p> Very well. Yes, the shadow belongs to a dog indeed. It could be one of the three dogs you saw in the beginning.</p>")
 	         ,         
-	     newImage ("threedogs1.png")
+	     newImage ("threedogs.png")
                .print ()
 	       ,
 	       newKey(" ")
