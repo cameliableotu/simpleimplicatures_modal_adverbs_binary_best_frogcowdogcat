@@ -869,7 +869,7 @@ PennController("experiment" ,
 	       newText ("<p> Let's get acquainted with the group of cows. </p>")
 	    ,
 	                  
-	     newImage ("threedogs", "threedogs.png")
+	     newImage ("threecows", "threecows.png")
                .print ()
 	       ,
 	       newAudio("cowsounds2sec", "cowsounds2sec.mp3")
